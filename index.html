@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Home - GarbageDay! App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap Stylesheet Framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- R: SCRIPTS FOR MATERIAL MD-DBOOTSTRAP (VIDEO) -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+
+  <!-- ROHIN STYLESHEETS-->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body onload="slideshowTimer()"> 
+
+<!--NAVBAR START -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">   <!--  Navbar Smaller Menu is visible on small width screen ex. mobile device  -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">SaveOurPlanet</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="http://www.braxica.com">Team Page (Old)</a></li>
+                <li><a href="http://rohinsblog.blogspot.com">Blog (Old)</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="form.html">Report a bug</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+<!--NAVBAR END -->
+
+  <!--  IMAGES SOURCE: FROM APPLE OSX WALLPAPERS (stored in /files/image/...)-->
+  <div class="alignRow">
+    <div class="slideShowDiv">
+      <div class="alignRow colorGreyF">
+        <img class="mySlides" src="files/image/photo1.jpg">
+        <img class="mySlides" src="files/image/photo2.jpg">
+        <img class="mySlides" src="files/image/photo3.jpg">
+        <img class="mySlides" src="files/image/photo4.jpg">
+        <img class="mySlides" src="files/image/photo5.jpg">
+        <img class="mySlides" src="files/image/photo6.jpg">
+        <div class="myCaption"><h1>Introducing GarbageDay App</h1></div>
+      </div>
+    </div>
+
+
+    <div>
+        <div class="alignColumn leftColumn colorGreyC">
+            <h2 class="centerText">Top 5 Users</h2>
+            <p>
+              <ol class="padding-between-medium padding-left-medium">
+                  <li class="featuredText">Andrew Tran</li>
+                  <li class="featuredText">Brittany Anderson</li>
+                  <li class="featuredText">Natalie Jones</li>
+                  <li class="featuredText">Megh Suthar</li>
+                  <li class="featuredText">Laqueesha Vonn</li>
+              </ol>
+            </p>
+        </div>
+        
+        <div class="alignColumn middleColumn colorGreyB">
+          <h2 class="centerText">Changelog</h2>
+          <p>
+            <ul class="padding-between-medium">
+              <li class="featuredText">Based on your location, this iOS app allows one to quickly know the upcoming garbage pickup schedule.
+                <ul>
+                  <li>Alternately: provide location manually.</li>
+                </ul>
+              </li>
+                <li class="featuredText">The app will provide information from twitter regarding delays and other green initiatives by the user’s municipality.</li>
+            </ul>
+          </p>
+        </div>
+        
+        <div class="alignColumn rightColumn colorGreyC">
+            <h2 class="centerText">Supported Platforms</h2>
+            <p>
+              <ul class="padding-between-medium padding-left-medium" style="list-style-type:square">
+                  <li class="featuredText">iOS Mobile app</li>
+                  <li class="featuredText">Android app</li>
+                  <li class="featuredText">Android TV</li>
+                  <li class="featuredText">Alexa Skills</li>
+                  <li class="featuredText">Mobile Web App</li>
+              </ul>
+            </p>
+        </div>
+    </div>
+
+
+<!-- ROHIN JAVASCRIPT -->
+<script src="jScript.js"></script>
+
+</body>
+</html>
