@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Report - GarbageDay App!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap Stylesheet Framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- R: SCRIPTS FOR MATERIAL MD-DBOOTSTRAP (VIDEO) -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+
+  <!-- ROHIN STYLESHEETS-->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<!--NAVBAR START -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">   <!--  Navbar Smaller Menu is visible on small width screen ex. mobile device  -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">SaveOurPlanet</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="http://www.braxica.com">Team Page (Old)</a></li>
+                <li><a href="http://rohinsblog.blogspot.com">Blog (Old)</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="form.html">Report a bug</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+<!--NAVBAR END -->
+
+ <!--  IMAGE SOURCE: PEXELS ROYALTY FREE STOCK IMAGE (EDITED BY ME)-->
+  <div class="alignRow">
+    <div class="alignRow colorGreyF-small">
+      <img class="mySlides" src="files/image/bg11.jpg">
+    </div>
+    <div class="fluid-container">
+      <h2 class="centerText">BUG REPORT</h2>
+    </div>
+
+ <!--  I will change this as we learn SQL in the coming weeks (to save info) -->
+    <div class="fluid-container">
+      <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+        <fieldset class="formAlign centerText">
+          <legend>Please fill out this form:</legend>
+             <div><label>Name:</label>
+            <input type="text" name="name_input" size="30" maxlength="100" class="textAreaSmall">
+          </div>
+          <div><label>Email:</label>
+            <input type="text" name="email_input" size="30" maxlength="100" class="textAreaSmall">
+          </div>
+          <div><label>Issue:</label>
+            <input type="text" name="text_input" size="300" maxlength="300" class="textAreaBig">
+          </div>
+          <div>
+            <input class="btn btn-blue" type="submit" value="Submit">
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+<!-- ROHIN JAVASCRIPT -->
+<script src="jScript.js"></script>
+
+</body>
+</html>
