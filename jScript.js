@@ -1,4 +1,4 @@
-//CS290 - ROHIN ADALJA JS
+//KEEPRECYCLING.ME: TO-DO: Rohin Adalja update resume link
 
 function resumeClick() {
 	window.location = "http://osucascades.edu/sites/osucascades.edu/files/Career_Services/resume_samples.pdf";
@@ -13,7 +13,7 @@ function verySoonMsg() {
 }
 
 
-//Automatic Slideshow Carousel (Change every 3 seconds) (Adopted from: W3SCHOOLS - DOCUMENTATION)
+//Automatic Slideshow Carousel (Change every 3 seconds)
 	     //(Using onload) document.addEventListener('DOMContentLoaded', slideshowTimer);
 function slideshowTimer() {
 
